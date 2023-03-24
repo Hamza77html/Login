@@ -1,0 +1,116 @@
+/* Styling for the header */
+header {
+	background-color: #3b5998;
+    	color: #fff;
+        	padding: 20px;
+            	display: flex;
+                	align-items: center;
+                    	justify-content: space-between;
+                        }
+
+                        nav ul {
+                        	list-style-type: none;
+                            	margin: 0;
+                                	padding: 0;
+                                    	display: flex;
+                                        }
+
+                                        nav ul li {
+                                        	margin-right: 20px;
+                                            }
+
+                                            nav ul li:last-child {
+                                            	margin-right: 0;
+                                                }
+
+                                                nav ul li a {
+                                                	color: #fff;
+                                                    	text-decoration: none;
+                                                        	font-weight: bold;
+                                                            }
+
+                                                            /* Styling for the main content */
+                                                            main {
+                                                            	margin: 20px;
+                                                                }
+
+                                                                .post-form {
+                                                                	border: 1px solid #ccc;
+                                                                    	padding: 20px;
+                                                                        	margin-bottom: 20px;
+                                                                            }
+
+                                                                            .post-form h2 {
+                                                                            	margin-top: 0;
+                                                                                }
+
+                                                                                .post-form textarea {
+                                                                                	display: block;
+                                                                                    	width: 100%;
+                                                                                        	margin-bottom: 10px;
+                                                                                            	padding: 10px;
+                                                                                                	font-size: 16px;
+                                                                                                    	border: 1px solid #ccc;
+                                                                                                        	border-radius: 5px;
+                                                                                                            	resize: none;
+                                                                                                                }
+
+                                                                                                                .post-form button {
+                                                                                                                	background-color: #3b5998;
+                                                                                                                    	color: #fff;
+                                                                                                                        	border: none;
+                                                                                                                            	padding: 10px 20px;
+                                                                                                                                	font-size: 16px;
+                                                                                                                                    	border-radius: 5px;
+                                                                                                                                        	cursor: pointer;
+                                                                                                                                            }
+
+                                                                                                                                            .posts {
+                                                                                                                                            	display: flex;
+                                                                                                                                                	flex-direction: column;
+                                                                                                                                                    }
+
+                                                                                                                                                    .article {
+                                                                                                                                                    	border: 1px solid #ccc;
+                                                                                                                                                        	padding: 20px;
+                                                                                                                                                            	margin-bottom: 20px;
+                                                                                                                                                                }
+
+                                                                                                                                                                .avatar {
+                                                                                                                                                                	float: left;
+                                                                                                                                                                    	margin-right: 10px;
+                                                                                                                                                                        }
+
+                                                                                                                                                                        .avatar img {
+                                                                                                                                                                        	border-radius: 50%;
+                                                                                                                                                                            }
+
+                                                                                                                                                                            .user-info h3 {
+                                                                                                                                                                            	margin-top: 0;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                .user-info p {
+                                                                                                                                                                                	margin: 0;
+                                                                                                                                                                                    	color: #999;
+                                                                                                                                                                                        	font-size: 14px;
+                                                                                                                                                                                            }
+
+                                                                                                                                                                                            .posts p {
+                                                                                                                                                                                            	margin-bottom: 10px;
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                .posts footer {
+                                                                                                                                                                                                	margin-top: 10px;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .posts footer button {
+                                                                                                                                                                                                    	background-color: #3b5998;
+                                                                                                                                                                                                        	color: #fff;
+                                                                                                                                                                                                            	border: none;
+                                                                                                                                                                                                                	padding: 10px 20px;
+                                                                                                                                                                                                                    	font-size: 16px;
+                                                                                                                                                                                                                        	border-radius: 5px;
+                                                                                                                                                                                                                            	cursor: pointer;
+                                                                                                                                                                                                                                	margin-right: 10px;
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                    
